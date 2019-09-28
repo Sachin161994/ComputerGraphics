@@ -39,7 +39,7 @@ void display(void){
 
 void init(void)
 {
-glClearColor(1.0f,1.0f,1.0f,0.0f);
+glClearColor(0.0f,0.0f,0.0f,0.0f);
 glMatrixMode(GL_PROJECTION);
 glLoadIdentity();//clears matrix
 gluOrtho2D(-100,100,-100,100);
